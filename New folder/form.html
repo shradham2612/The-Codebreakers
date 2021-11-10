@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registeration form</title>
+</head>
+<body>
+    <form action="">
+        <h2>Registeration form</h2>
+        <h3>Student's Info</h3>
+        <p>Name: <input type="text" name="Your name" required></p>
+        <p>
+            <fieldset>
+                <legend>Gender</legend>
+            Male <input type="radio" name="Gender" id="gender">
+            <br>
+            Female <input type="radio" name="Gender" id="female">
+        </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Address</legend>
+            <p><Address> <textarea name="Address" id="address" cols="50" rows="6"></textarea></p>
+        </fieldset>
+        <p>Email: <input type="email" name="email" id="email"></p>
+       <p>Pincode :  <input type="number" name="pincode " id="pincode"></p>
+
+       <h3>Sec and Branch</h3>
+       <p>
+           SEC NAME :
+           <select name="SEC" id="SEC">
+               <option value="">-----Select your section---</option>></option>
+               <option value="A">A</option>
+               <option value="B">B</option>
+               <option value="C">C</option>
+               <option value="D">D</option> 
+               <option value="E">E</option>
+            </select>
+
+       </p>
+<p>
+    Branch : <input type="text" name="Branch" id="Branch">
+</p>
+<input type="submit" value="Submit">
+    </form>
+</body>
+</html>
