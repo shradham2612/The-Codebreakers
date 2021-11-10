@@ -292,6 +292,42 @@ h4 {
 }
 
 .fa-facebook:hover {
-  color: blanchedalmond;
+  color: yellow;
   transition: 0.3s;
+}
+
+.fa-linkedin {
+  color: white;
+  transition: 0.3s;
+}
+
+.fa-linkedin:hover {
+  color: yellow;
+  transition: 0.3s;
+}
+
+.fa-instagram {
+  color: white;
+  transition: 0.3s;
+}
+
+.fa-instagram:hover {
+  color: yellow;
+  transition: 0.3s;
+}
+
+.fa-youtube{
+  color: white;
+  transition: 0.3s;
+}
+
+.fa-youtube:hover {
+  color: yellow;
+  transition: 0.3s;
+}
+
+
+.gif img
+{
+  width:100%;
 }
